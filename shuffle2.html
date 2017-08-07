@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Shuffle Game2</title>
+		<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+        <script src="bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="shuffle2.js"></script>
+        <link type="text/css" rel="stylesheet" href="shuffle2.css">
+	</head>
+	<body>
+       <div class="container">
+               <div class="col-md-6" id="left">
+                    <div class="row">
+                        <div id="count" class="panel panel-default">&nbsp;</div>
+                    </div>
+                            <div class="progress">
+                                 <div class="progress-bar progress-bar-info" id="progress"></div>
+                             </div>
+
+                    </div>
+               <div class="col-md-6" id="right">
+                   <select id="choice" class="form-control" onchange="shuffle()">
+                            <option value="choose">Choose a word group here</option> 
+                            <option value="sports">Sports</option> 
+                            <option value="travel">Travel</option> 
+                            <option value="music">Music</option>                  
+                    </select>
+                        <div class="row" id="r1">
+                                <div class="form-group">
+                                    <div class="col-md-3">
+                                    <a id="res"><input type="button" value="START" onclick="stat()" class="btn btn-default" id="start"></a>
+                                    </div>
+                                    <div class="col-md-8" id="question">SCRAMBLED WORD</div>
+                                </div>
+                                    
+                        </div>
+        
+
+        <div class="row">
+            <div class=" form-group has-feedback">
+                <div class="col-md-9">
+                    <input type="text" value="" placeholder="Answer" id="answer" class="form-control">
+                    <span class="glyphicon form-control-feedback" id="row2"></span>
+                </div>
+                 <div class="col-md-3">
+                    <input type="button" value="CHECK" onclick="check()" class="btn btn-default" id="checkk">
+                </div>
+            </div>
+            <div id="logo"><span style="color:#FFF100">word</span><span style="color: #FFF79D">Scramb</span></div>
+        </div>
+               
+           </div>
+       </div>
+
+
+	<!--<div class="container">
+	<form role="form">
+
+		<br />
+
+		<div class="row" id="row">
+			
+		</div><br />
+			
+			<div class="row">
+				<div class="col-md-12" id="submitButton">
+					<div class="form-group">
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+					
+			</div>
+			<div class="progress">
+			<div class="progess-bar progress-bar-info" role="progessbar" style="font-size:14px" id="progress">
+			
+			</div>
+
+
+			
+			</form>
+	</div>-->
+		
+	</body>
+	</html>

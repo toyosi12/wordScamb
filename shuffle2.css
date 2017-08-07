@@ -1,0 +1,89 @@
+               /* 
+
+        	.container{
+        		border: solid yellow 1px;
+
+        	}
+                #left, #right{
+                        height: 350px;
+                        width: 100%
+                }
+
+               
+                .panel{
+                        width: 40%
+                }
+        	#startButton, #submitButton, #question, #answer, #count{
+        		text-align:center;
+        	}
+        	#count{
+        		font-family:digital-7;
+        		font-size:20px;
+        	}
+        	#question{
+        		padding-top:7px;
+        		padding-bottom: 7px;
+        	}
+        	input[type="text"]{
+        		
+        	}
+        	input[value="CHECK"], input[value="START"]{
+        		padding-left:25px;
+        		padding-right:25px;
+        		font-size:18px;
+        		color:white;
+        		background-color:#000000;
+        		border:none;
+        		font-family:tahoma;
+        	}*/
+
+                body{
+                        background:#000000;
+                        padding-top: 6%;
+                        
+                }
+
+                .container{
+                        width: 60%;
+
+                }
+
+                #left, #right{
+                        height: 450px;
+                }
+
+                 #left{
+                        background-color:#DAC3DE;
+                        padding-top:10%;
+                }
+
+                #right{
+                        background-color:#B51D84;
+                        padding-top: 12%;
+                }
+                #count{
+                        width: 40%;
+                        height:30px;
+                        margin: 15% auto;
+                        text-align: center;
+                }
+                #question{
+                        background-color: #000000;
+                        padding: 2%;
+                        color:white;
+                        font-style: forte
+                }
+
+                select{
+                        margin-bottom: 12%
+                }
+
+                #r1{
+                        margin-bottom: 12%;
+                }
+                #logo{
+                        text-align: right;
+                        margin-top: 30%;
+                        margin-right: 5%;
+                        font-size: 22px;
+                }
